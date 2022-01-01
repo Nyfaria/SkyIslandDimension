@@ -1,0 +1,44 @@
+{
+  "bedrock_roof_position": -10,
+  "bedrock_floor_position": -10,
+  "sea_level": 0,
+  "disable_mob_generation": false,
+  "structures": {
+    "structures": {}
+  },
+  "noise": {
+    "random_density_offset": true,
+    "amplified": false,
+    "density_factor": 0.0,
+    "density_offset": 0.0,
+    "simplex_surface_noise": false,
+    "size_horizontal": 1,
+    "size_vertical": 4,
+    "height": 128,
+    "sampling": {
+      "xz_scale": 2,
+      "y_scale": 8,
+      "xz_factor": 180.0,
+      "y_factor": 160.0
+    },
+    "top_slide": {
+      "target": -10,
+      "size": 2,
+      "offset": 3
+    },
+    "bottom_slide": {
+      "target": -10,
+      "size": 10,
+      "offset": 1
+    }
+  },
+  "default_block": {
+    "Name": "minecraft:stone"
+  },
+  "default_fluid": {
+    "Properties": {
+      "level": "0"
+    },
+    "Name": "minecraft:water"
+  }
+}

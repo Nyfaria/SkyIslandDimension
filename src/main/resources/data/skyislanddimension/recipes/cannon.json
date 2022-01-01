@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "DDD",
+        "  S"
+    ],
+    "key": {
+        "S": {
+            "tag": "minecraft:logs"
+        },
+        "D": {
+            "item": "minecraft:iron_block"
+        }
+    },
+    "result": {
+        "item": "skyislanddimension:cannon_item",
+        "count": 1
+    },
+    "group": "tools"
+}

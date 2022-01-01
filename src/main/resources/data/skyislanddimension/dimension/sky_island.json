@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "biome_source": {
+      "seed": 2,
+      "large_biomes": false,
+      "type": "minecraft:multi_noise",
+      "humidity_noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+      "altitude_noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+      "weirdness_noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+      "temperature_noise": {
+        "firstOctave": -9,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+      "biomes": [
+        {
+          "biome": "skyislanddimension:plains",
+          "parameters": {
+            "temperature": 0.8,
+            "humidity": 0.5,
+            "altitude": 0.0,
+            "weirdness": 0.2,
+            "offset": 0.2
+          }
+        },
+        {
+          "biome": "skyislanddimension:bamboo_jungle",
+          "parameters": {
+            "temperature": 0.1,
+            "humidity": 1.1,
+            "altitude": 0.0,
+            "weirdness": 0.1,
+            "offset": 0.3
+          }
+        },
+        {
+          "biome": "skyislanddimension:forest",
+          "parameters": {
+            "temperature": 0.9,
+            "humidity": 0.4,
+            "altitude": 0.0,
+            "weirdness": 0.3,
+            "offset": 0.0
+          }
+        }
+      ]
+    },
+    "seed": 3,
+    "settings": "skyislanddimension:overworld",
+    "type": "minecraft:noise"
+  }
+}

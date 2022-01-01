@@ -3,9 +3,9 @@ modLoader="javafml"
 loaderVersion="[36,)"
 license="All rights reserved"
 [[mods]]
-modId="nyfsforgetemplate"
+modId="skyislanddimension"
 version="${file.jarVersion}"
-displayName="Nyf's Forge Tempalte"
+displayName="Sky Island Dimension"
 authors="TheNyfaria"
 description='''
 '''
